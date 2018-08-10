@@ -1,0 +1,417 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0524D578EDE919245AA20F6E /* libPods-TappedTruncation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 794259F5C0F640FDF64A459D /* libPods-TappedTruncation.a */; };
+		EC6D3F03211A977400BE17F1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D3F02211A977400BE17F1 /* AppDelegate.m */; };
+		EC6D3F06211A977400BE17F1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D3F05211A977400BE17F1 /* ViewController.m */; };
+		EC6D3F09211A977400BE17F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6D3F07211A977400BE17F1 /* Main.storyboard */; };
+		EC6D3F0B211A977400BE17F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC6D3F0A211A977400BE17F1 /* Assets.xcassets */; };
+		EC6D3F0E211A977400BE17F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC6D3F0C211A977400BE17F1 /* LaunchScreen.storyboard */; };
+		EC6D3F11211A977400BE17F1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D3F10211A977400BE17F1 /* main.m */; };
+		EC6D3F19211A99C400BE17F1 /* XHDescNode.m in Sources */ = {isa = PBXBuildFile; fileRef = EC6D3F18211A99C400BE17F1 /* XHDescNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3FE3E4196C556A3A52E96A23 /* Pods-TappedTruncation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappedTruncation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TappedTruncation/Pods-TappedTruncation.debug.xcconfig"; sourceTree = "<group>"; };
+		794259F5C0F640FDF64A459D /* libPods-TappedTruncation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TappedTruncation.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6D3EFE211A977400BE17F1 /* TappedTruncation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TappedTruncation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC6D3F01211A977400BE17F1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EC6D3F02211A977400BE17F1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EC6D3F04211A977400BE17F1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EC6D3F05211A977400BE17F1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC6D3F08211A977400BE17F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC6D3F0A211A977400BE17F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC6D3F0D211A977400BE17F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC6D3F0F211A977400BE17F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC6D3F10211A977400BE17F1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EC6D3F17211A99C400BE17F1 /* XHDescNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XHDescNode.h; sourceTree = "<group>"; };
+		EC6D3F18211A99C400BE17F1 /* XHDescNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XHDescNode.m; sourceTree = "<group>"; };
+		F13545AB322B8180AE56F006 /* Pods-TappedTruncation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TappedTruncation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TappedTruncation/Pods-TappedTruncation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC6D3EFB211A977400BE17F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0524D578EDE919245AA20F6E /* libPods-TappedTruncation.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4DBFA688C62954F0F9AE2D0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				794259F5C0F640FDF64A459D /* libPods-TappedTruncation.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EAB64D9582FA72930852565B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3FE3E4196C556A3A52E96A23 /* Pods-TappedTruncation.debug.xcconfig */,
+				F13545AB322B8180AE56F006 /* Pods-TappedTruncation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EC6D3EF5211A977400BE17F1 = {
+			isa = PBXGroup;
+			children = (
+				EC6D3F00211A977400BE17F1 /* TappedTruncation */,
+				EC6D3EFF211A977400BE17F1 /* Products */,
+				EAB64D9582FA72930852565B /* Pods */,
+				4DBFA688C62954F0F9AE2D0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EC6D3EFF211A977400BE17F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D3EFE211A977400BE17F1 /* TappedTruncation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC6D3F00211A977400BE17F1 /* TappedTruncation */ = {
+			isa = PBXGroup;
+			children = (
+				EC6D3F01211A977400BE17F1 /* AppDelegate.h */,
+				EC6D3F02211A977400BE17F1 /* AppDelegate.m */,
+				EC6D3F04211A977400BE17F1 /* ViewController.h */,
+				EC6D3F05211A977400BE17F1 /* ViewController.m */,
+				EC6D3F17211A99C400BE17F1 /* XHDescNode.h */,
+				EC6D3F18211A99C400BE17F1 /* XHDescNode.m */,
+				EC6D3F07211A977400BE17F1 /* Main.storyboard */,
+				EC6D3F0A211A977400BE17F1 /* Assets.xcassets */,
+				EC6D3F0C211A977400BE17F1 /* LaunchScreen.storyboard */,
+				EC6D3F0F211A977400BE17F1 /* Info.plist */,
+				EC6D3F10211A977400BE17F1 /* main.m */,
+			);
+			path = TappedTruncation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC6D3EFD211A977400BE17F1 /* TappedTruncation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC6D3F14211A977400BE17F1 /* Build configuration list for PBXNativeTarget "TappedTruncation" */;
+			buildPhases = (
+				160860BD10BE3EDE5D95697A /* [CP] Check Pods Manifest.lock */,
+				EC6D3EFA211A977400BE17F1 /* Sources */,
+				EC6D3EFB211A977400BE17F1 /* Frameworks */,
+				EC6D3EFC211A977400BE17F1 /* Resources */,
+				66FE7B1E0C6C62F9A3AD6DCD /* [CP] Embed Pods Frameworks */,
+				4947AFB5DB0FA53784EFF10B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TappedTruncation;
+			productName = TappedTruncation;
+			productReference = EC6D3EFE211A977400BE17F1 /* TappedTruncation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC6D3EF6211A977400BE17F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = zhuke;
+				TargetAttributes = {
+					EC6D3EFD211A977400BE17F1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = EC6D3EF9211A977400BE17F1 /* Build configuration list for PBXProject "TappedTruncation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC6D3EF5211A977400BE17F1;
+			productRefGroup = EC6D3EFF211A977400BE17F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC6D3EFD211A977400BE17F1 /* TappedTruncation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC6D3EFC211A977400BE17F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6D3F0E211A977400BE17F1 /* LaunchScreen.storyboard in Resources */,
+				EC6D3F0B211A977400BE17F1 /* Assets.xcassets in Resources */,
+				EC6D3F09211A977400BE17F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		160860BD10BE3EDE5D95697A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TappedTruncation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4947AFB5DB0FA53784EFF10B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TappedTruncation/Pods-TappedTruncation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		66FE7B1E0C6C62F9A3AD6DCD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TappedTruncation/Pods-TappedTruncation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC6D3EFA211A977400BE17F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC6D3F19211A99C400BE17F1 /* XHDescNode.m in Sources */,
+				EC6D3F06211A977400BE17F1 /* ViewController.m in Sources */,
+				EC6D3F11211A977400BE17F1 /* main.m in Sources */,
+				EC6D3F03211A977400BE17F1 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EC6D3F07211A977400BE17F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6D3F08211A977400BE17F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC6D3F0C211A977400BE17F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC6D3F0D211A977400BE17F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC6D3F12211A977400BE17F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC6D3F13211A977400BE17F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC6D3F15211A977400BE17F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FE3E4196C556A3A52E96A23 /* Pods-TappedTruncation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JY6F7Y5RX;
+				INFOPLIST_FILE = TappedTruncation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhuke.com.TappedTruncation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC6D3F16211A977400BE17F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13545AB322B8180AE56F006 /* Pods-TappedTruncation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7JY6F7Y5RX;
+				INFOPLIST_FILE = TappedTruncation/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zhuke.com.TappedTruncation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC6D3EF9211A977400BE17F1 /* Build configuration list for PBXProject "TappedTruncation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6D3F12211A977400BE17F1 /* Debug */,
+				EC6D3F13211A977400BE17F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC6D3F14211A977400BE17F1 /* Build configuration list for PBXNativeTarget "TappedTruncation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC6D3F15211A977400BE17F1 /* Debug */,
+				EC6D3F16211A977400BE17F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC6D3EF6211A977400BE17F1 /* Project object */;
+}
